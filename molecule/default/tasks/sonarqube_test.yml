@@ -100,6 +100,7 @@
   ignore_errors: true
 
 - debug: var=namespace_modded_cr
+- debug: var=scope
 
 - name: Verify that Sonarqube failed to be created from the CR when appropriate
   assert:
