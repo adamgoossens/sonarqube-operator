@@ -5,11 +5,11 @@ on:
     - cron: '0 1 * * *' # everyday at 1am
   push:
     branches:
-      - develop
+      - develop-mine
       - main
   pull_request:
     branches:
-      - develop
+      - develop-mine
 
 jobs:
   test-cluster:
